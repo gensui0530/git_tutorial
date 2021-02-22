@@ -7,11 +7,15 @@
 <p>ワークツリーとステージとの差分を表示: git diff</p>
 <p>ステージとリポジトリとの差分を表示: git diff --staged</p>
 <p>コミット履歴の追加: git log</p>
-<p>リポジトリ、ディレクトリからファイルを削除: rm（ファイル名）</p>
-<p>リポジトリからは削除、ディレクトリには残す: rm --cashed（ファイル名）</p>
+<p>リポジトリ、ディレクトリからファイルを削除: git rm（ファイル名）</p>
+<p>リポジトリからは削除、ディレクトリには残す: git rm --cashed（ファイル名）</p>
 <p>ファイルの名前を変更: git mv (元のファイル名) (変えたいファイル名)</p>
 <p>リモートリポジトリを新規追加する: git remote add origin</p>
 <p>リモートリポジトリへ送信する: git push (リモート名)（ブランチ名）</p>
 <p>マスターへ送信:git push origin master</p>
 <p>ファイルの変更を戻す: git checkout --(ファイル名　or ディレクトリ名))</p>
-<p>git reset HEAD または　git reset HEAD　(ファイル名)</p>
+<p>
+  ステージした変更を取り消す: git reset HEAD または　git reset
+  HEAD　(ファイル名)
+</p>
+<p>直前のコミットをやり直す: git commit --amend</p>
